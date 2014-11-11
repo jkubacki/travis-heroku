@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.1.4
+deploy:
+  provider: heroku
+  api_key:
+    secure: IhkDJB1ClswzwPEuXQ0O4+F0bSNDL48vL46S1908+Db9lQ4qAXqwY9DSuwJrNwdcMFOzDjFMJfZXGTLehXHscBFI7vnJRoNgOYUNivtYw0PoxP7dbgCcTIQFQcCymp7ThOUB4/1ziFqMNztOIVEwXeh6AlCV19xzEXni8GiKtY0=
+  app: jkubacki-travis-heroku
+  on:
+    repo: jkubacki/travis-heroku
